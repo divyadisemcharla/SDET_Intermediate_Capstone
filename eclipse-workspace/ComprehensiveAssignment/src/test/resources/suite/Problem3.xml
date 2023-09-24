@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDET Intermediate Comprehensive Assignment Suite">
+  <test name="Assignment Programs">
+      <classes>
+	  <class name="com.qa.problems.Problem1"/>
+      <class name="com.qa.problems.Problem3"/>
+      <class name="com.qa.problems.TestRunner"/> 
+    </classes>
+  </test>
+</suite> 

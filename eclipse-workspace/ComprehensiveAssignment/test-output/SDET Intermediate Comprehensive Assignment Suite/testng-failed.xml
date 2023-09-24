@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SDET Intermediate Comprehensive Assignment Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Assignment Programs(failed)">
+    <classes>
+      <class name="com.qa.problems.Problem3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="MakeMyTrip"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.qa.problems.Problem3 -->
+    </classes>
+  </test> <!-- Assignment Programs(failed) -->
+</suite> <!-- Failed suite [SDET Intermediate Comprehensive Assignment Suite] -->
