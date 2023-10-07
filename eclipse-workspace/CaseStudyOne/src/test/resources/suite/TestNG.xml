@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDET Intermediate Comprehensive Assignment Suite">
+  <test name="Assignment Programs">
+	  <parameter name="username" value = "standard_user"/>
+	  <parameter name="password" value = "secret_sauce"/>
+	  <parameter name="Invalidusername" value = "standard_Invaliduser"/>
+	  <parameter name="Invalidpassword" value = "secret_Invalidpwd"/>
+        <classes>
+           <class name="com.qa.problems.CaseStudy1_UC1"/>
+           <class name="com.qa.problems.CaseStudy1_UC2And5"/>
+           <class name="com.qa.problems.CaseStudy1_UC3And6"/>   
+        </classes>
+  </test>
+</suite> 

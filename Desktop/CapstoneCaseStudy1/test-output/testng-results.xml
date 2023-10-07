@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-07T10:27:10 CDT" name="SDET Intermediate Comprehensive Assignment Suite" finished-at="2023-10-07T10:27:18 CDT" duration-ms="7849">
+    <groups>
+    </groups>
+    <test started-at="2023-10-07T10:27:10 CDT" name="Assignment Programs" finished-at="2023-10-07T10:27:18 CDT" duration-ms="7849">
+      <class name="com.qa.problems.CaseStudy1_UC3And6">
+        <test-method signature="useCaseThree(java.lang.String,java.lang.String)[pri:0, instance:com.qa.problems.CaseStudy1_UC3And6@2a693f59]" started-at="2023-10-07T10:27:17 CDT" name="useCaseThree" finished-at="2023-10-07T10:27:17 CDT" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_Invaliduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_Invalidpwd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCaseThree -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.problems.CaseStudy1_UC3And6@2a693f59]" started-at="2023-10-07T10:27:17 CDT" name="tearDown" finished-at="2023-10-07T10:27:18 CDT" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useCaseThree status=SUCCESS method=CaseStudy1_UC3And6.useCaseThree(java.lang.String,java.lang.String)[pri:0, instance:com.qa.problems.CaseStudy1_UC3And6@2a693f59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.problems.CaseStudy1_UC3And6 -->
+      <class name="com.qa.problems.CaseStudy1_UC2And5">
+        <test-method signature="useCaseTwo(java.lang.String,java.lang.String)[pri:0, instance:com.qa.problems.CaseStudy1_UC2And5@433defed]" started-at="2023-10-07T10:27:15 CDT" name="useCaseTwo" finished-at="2023-10-07T10:27:16 CDT" duration-ms="920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCaseTwo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.problems.CaseStudy1_UC2And5@433defed]" started-at="2023-10-07T10:27:16 CDT" name="tearDown" finished-at="2023-10-07T10:27:17 CDT" duration-ms="736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useCaseTwo status=SUCCESS method=CaseStudy1_UC2And5.useCaseTwo(java.lang.String,java.lang.String)[pri:0, instance:com.qa.problems.CaseStudy1_UC2And5@433defed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.problems.CaseStudy1_UC2And5 -->
+      <class name="com.qa.problems.CaseStudy1_UC1">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:com.qa.problems.CaseStudy1_UC1@305ffe9e]" started-at="2023-10-07T10:27:03 CDT" name="LaunchBrowser" finished-at="2023-10-07T10:27:10 CDT" duration-ms="6340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="useCaseOne()[pri:0, instance:com.qa.problems.CaseStudy1_UC1@305ffe9e]" started-at="2023-10-07T10:27:10 CDT" name="useCaseOne" finished-at="2023-10-07T10:27:14 CDT" duration-ms="4605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCaseOne -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.problems.CaseStudy1_UC1@305ffe9e]" started-at="2023-10-07T10:27:14 CDT" name="tearDown" finished-at="2023-10-07T10:27:15 CDT" duration-ms="556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useCaseOne status=SUCCESS method=CaseStudy1_UC1.useCaseOne()[pri:0, instance:com.qa.problems.CaseStudy1_UC1@305ffe9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.problems.CaseStudy1_UC1@305ffe9e]" started-at="2023-10-07T10:27:18 CDT" name="closeBrowser" finished-at="2023-10-07T10:27:20 CDT" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.problems.CaseStudy1_UC1 -->
+    </test> <!-- Assignment Programs -->
+  </suite> <!-- SDET Intermediate Comprehensive Assignment Suite -->
+</testng-results>
